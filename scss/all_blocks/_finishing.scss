@@ -1,11 +1,10 @@
-.finishing-item 
-{
+.finishing-item {
     margin-top: 250px;
     margin-left: 60px;
 }
-.finish_h3
-{
-    
+
+.finish_h3 {
+
     font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
@@ -14,8 +13,8 @@
     color: #83888F;
     margin-bottom: 80px;
 }
-.line
-{
+
+.line {
     display: flex;
     align-items: center;
     width: 760px;
@@ -23,9 +22,9 @@
     border: 2px solid #FDD6BA;
     margin-bottom: 82px;
 }
+
 .line::before,
-.line:after
-{
+.line:after {
     content: '';
     width: 31px;
     height: 31px;
@@ -35,8 +34,8 @@
     margin-left: -5px;
     margin-right: -5px;
 }
-.elipce-center
-{
+
+.elipce-center {
     display: flex;
     align-content: center;
     width: 31px;
@@ -46,28 +45,28 @@
     background: #fff;
     margin: 0 auto;
 }
-.number_info
-{
+
+.number_info {
     display: flex;
 }
-.flex-num
-{
+
+.flex-num {
     width: 285px;
 }
-.flex-num:nth-child(2n)
-{
+
+.flex-num:nth-child(2n) {
     margin: 0 95px;
 }
-.flex-h1
-{
+
+.flex-h1 {
     font-family: 'Fraunces';
     font-weight: 900;
     font-size: 72px;
     line-height: 36px;
     color: #FDD6BA;
 }
-.flex-h3 
-{
+
+.flex-h3 {
     width: 255px;
     font-family: 'Fraunces';
     font-weight: 900;
@@ -75,15 +74,15 @@
     line-height: 36px;
     color: #333D4B;
 }
-.flex-p 
-{
+
+.flex-p {
     font-size: 16px;
     line-height: 26px;
     color: #333D4B;
     font-weight: normal;
 }
-.btn 
-{
+
+.btn {
     padding: 15px 31px;
     background: #0E8784;
     border-radius: 6px;
@@ -95,10 +94,10 @@
     color: #FEFCF7;
     transition: all 0.1s;
 }
-.btn:hover
-{
+
+.btn:hover {
     background: #fff;
     color: #0E8784;
     border: 2px solid #0E8784;
     cursor: pointer;
-} 
+}
